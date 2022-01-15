@@ -159,13 +159,12 @@ main{
     padding: 15px;
     color: indianred;
 }
-/* 
-.skill:hover .skill-details{
-    background-color: cornsilk;
-    border-radius: 30px;
-    color: ;
 
-} */
+.para{
+    font-size: 16px;
+    padding: 10px;
+}
+
 
 
 
