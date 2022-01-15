@@ -1,6 +1,50 @@
 
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: azure;
+}
+
+/* header style start */
+
+
+.nav-menu{
+    background-color: rgb(48, 48, 105);
+    display: flex;
+    color: white;
+}
+.menu-style a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.menu-style{
+    text-align: right;
+
+}
+
+.menu-bar{
+    display: flex; 
+ 
+}
+
+nav>ul {
+    display: flex;
+    }
+/* header style end */
+
+
+
+/* section1 style start */
 main{
     background-color: floralwhite;
+
 }
 
 .camera-picture{
@@ -9,10 +53,13 @@ main{
 }
 
 .button-style{
-         background-color: crimson;
-          width: 90px;
-         height: 30px;
-         border-radius: 30px;
+         background-color: rgb(238, 13, 137);
+         width: 150px;
+         height: 40px;
+         border: 1px solid #000000;
+         border-radius: 10px;
+         
+        
 }
 .image-icon{
     border: 1px solid darkgrey;
@@ -22,8 +69,6 @@ main{
     grid-template-columns: repeat(7, 1fr);
     justify-content: space-between;
 }
-
-
 
 
 
@@ -83,9 +128,65 @@ main{
 
 .link-button{
     text-decoration: none;
-    width: 100px;
-    height: 30px;
-    margin-top: 15px;
-    background-color: lightcoral;
-    text-align: right;
+    font-size: 20px;
+    background-color: darksalmon;
+    
 }
+
+
+
+.picture img{
+    width: 400px;
+    height: 350px;
+}
+
+.skill{
+    background-color: snow;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.skill-details{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    color: indianred;
+}
+/* 
+.skill:hover .skill-details{
+    background-color: cornsilk;
+    border-radius: 30px;
+    color: ;
+
+} */
+
+
+
+.extra-work{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px;
+}
+
+
+.button-style2{
+    background-color: rgb(238, 13, 137);
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+
+}
+
+
+
+.footer-style{
+    background-color: midnightblue;
+    text-align: center;
+    color: white;
+}
+
+.icon{
+    /* margin: 10px; */
+}
+
+
