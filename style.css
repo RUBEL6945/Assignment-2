@@ -44,6 +44,8 @@ nav>ul {
 /* section1 style start */
 main{
     background-color: floralwhite;
+    margin: 20px;
+
 
 }
 
@@ -70,9 +72,11 @@ main{
     justify-content: space-between;
 }
 
+/* section1 style end */
 
 
 
+/* section2 style start */
 .container{
     background-color: gainsboro;
 }
@@ -126,11 +130,14 @@ main{
 }
 
 
-.link-button{
-    text-decoration: none;
-    font-size: 20px;
-    background-color: darksalmon;
+.link-button {
     
+    text-align: right;
+ 
+}
+
+.buttons a{
+    text-decoration: none;
 }
 
 
@@ -173,7 +180,9 @@ main{
     background-color: rgb(238, 13, 137);
     width: 150px;
     height: 40px;
+    text-align: center;
     margin-left: 10px;
+   
 
 }
 
@@ -185,8 +194,17 @@ main{
     color: white;
 }
 
-.icon{
+
     /* margin: 10px; */
+
+
+
+/* Media Queries */
+
+/* Mobile Devices */
+@media only screen and (max-width: 688px){
+    .blogs{
+        background-color: deeppink;
+    }
 }
-
-
+    
