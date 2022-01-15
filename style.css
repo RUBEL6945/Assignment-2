@@ -23,6 +23,9 @@ body{
     margin-right: 20px;
     padding: 10px;
 }
+h1{
+    font-size: 25px;
+}
 
 .menu-style{
     text-align: right;
@@ -60,6 +63,7 @@ main{
          height: 40px;
          border: 1px solid #000000;
          border-radius: 10px;
+         color: white;
          
         
 }
@@ -129,19 +133,24 @@ main{
     font-size: 25px;
 }
 
+/* section2 style start */
 
-.link-button {
+
+/* link-button start */
+.link-button{
+
+    text-align: end;
+    color: white;
+   }
+   
+/* link-button end */
+
     
-    text-align: right;
- 
-}
-
-.buttons a{
-    text-decoration: none;
-}
+    
 
 
 
+/* Extra skill start */
 .picture img{
     width: 400px;
     height: 350px;
@@ -166,15 +175,11 @@ main{
     
 }
 
-
-
-
 .extra-work{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 60px;
 }
-
 
 .button-style2{
     background-color: rgb(238, 13, 137);
@@ -183,28 +188,37 @@ main{
     text-align: center;
     margin-left: 10px;
    
-
 }
+/* Extra skill end */
 
-
-
+/* .fotter style start */
 .footer-style{
     background-color: midnightblue;
     text-align: center;
     color: white;
 }
 
+/* .fotter style end */
+    
 
-    /* margin: 10px; */
 
 
-
-/* Media Queries */
+/* Media Queries start */
 
 /* Mobile Devices */
 @media only screen and (max-width: 688px){
-    .blogs{
+    .blogs, .extra-work{
         grid-template-columns: repeat(1, 1fr);
     }
 }
-    
+
+
+/* Responsive from Tap */
+@media only screen and (min-width: 689px) and (max-width: 1051px){
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
+
+/* Media Queries end */
